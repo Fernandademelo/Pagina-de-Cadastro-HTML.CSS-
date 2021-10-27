@@ -12,7 +12,7 @@
 
 
 body {
-    background: #410488;
+    background: #e1a4fa;
     font-weight: 500;
     display: flex;
     min-height: 100vh;
@@ -30,11 +30,10 @@ main {
 }
 
 h1 {
-    display: inline-block;
-    margin: auto;
+    margin: none;
     text-align: justify;
     border: none;
-    color: rgb(138, 49, 221);
+    color: rgb(154, 114, 192);
     
 }
 
@@ -46,7 +45,7 @@ main .social-media {
 
 main .social-media img {
     margin-left: 15px;
-    width: 36px;
+    width: 65px;
     align-content: center;
 }
 
@@ -76,7 +75,7 @@ main .alternative span::after {
     width: 100px;
     bottom: 50px;
     right: 50px;
-    background: #000000;
+    background: #000;
     bottom: 50%;
 
 
@@ -102,9 +101,10 @@ main form label {
 }
 
 main form span {
+    
     font-size: 20px;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
 }
 
 main form input {
@@ -127,7 +127,7 @@ main form input[type="submit"] {
     margin-top: 3rem;
     border: none;
     border-radius: 32px;
-    background: #7b08ff7a;
+    background: #0000007a;
     color: #ffffff;
     font-size: 15px;
 
@@ -149,6 +149,10 @@ section.images img {
     width: 150%;
 }
 
+.raise {
+    --color: #ffa260;
+    --hover: #e5ff60;
+  }
 /* ;CIRCULINHO */
 
 section.images .circle {
